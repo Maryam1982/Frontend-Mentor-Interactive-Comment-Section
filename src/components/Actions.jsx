@@ -54,7 +54,7 @@ export default function Actions({
             onClick={onClickDelete}
             disabled={commentStat === "edit"}
           >
-            <img src="../images/icon-delete.svg" /> Delete
+            <img src="./images/icon-delete.svg" /> Delete
           </button>
           <button
             className={`action-btn-edit ${
@@ -63,7 +63,7 @@ export default function Actions({
             onClick={onClickEdit}
             disabled={commentStat === "edit"}
           >
-            <img src="../images/icon-edit.svg" /> Edit
+            <img src="./images/icon-edit.svg" /> Edit
           </button>
         </>
       ) : (
@@ -73,7 +73,7 @@ export default function Actions({
           }`}
           onClick={onClickReply}
         >
-          <img src="../images/icon-reply.svg" /> Reply
+          <img src="./images/icon-reply.svg" /> Reply
         </button>
       )}
     </div>
