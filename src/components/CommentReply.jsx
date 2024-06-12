@@ -56,7 +56,7 @@ export default function CommentReply({
 
   return (
     <div className="comment-reply">
-      <img src={`.${currentUser.image.png}`} />
+      <img src={`${currentUser.image.png}`} />
       <textarea
         value={commentText}
         onChange={(e) => setCommentText(e.target.value)}
